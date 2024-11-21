@@ -1,0 +1,16 @@
+body {
+    font-family: sans-serif;
+}
+
+.input-container {
+    margin-bottom: 10px;
+}
+
+#direcciones_container {
+    margin-bottom: 10px;
+}
+
+#resultados {
+    margin-top: 20px;
+    font-weight: bold;
+}
