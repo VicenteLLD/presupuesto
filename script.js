@@ -33,20 +33,23 @@ btnCalcular.addEventListener("click", () => {
         });
 });
 
+
+
 function procesarCSV(csvData) {
-    const lineas = csvData.split("\n");
-    const data = {};
-    for (let i = 1; i < lineas.length; i++) {
-        const partes = lineas[i].split(",");
-        if (partes.length === 3) {
-            const poblacion = partes[0].trim();
-            const codigoPostal = partes[1].trim();
-            const valor = parseFloat(partes[2].trim());
-            data[codigoPostal] = { valor, poblacion };
-        }
+  const lineas = csvData.split("\n");
+  const data = {};
+  for (let i = 1; i < lineas.length; i++) {
+    const partes = lineas[i].split(";"); // Usar punto y coma como separador
+    if (partes.length === 3) {
+      const poblacion = partes[0].trim();
+      const codigoPostal = partes[1].trim();
+      const valor = parseFloat(partes[2].trim());
+      data[codigoPostal] = { valor, poblacion };
     }
-    return data;
+  }
+  return data;
 }
+
 
 function calcularPresupuesto(codigosPostales, data) {
     let total = 0;
