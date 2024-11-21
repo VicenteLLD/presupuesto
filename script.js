@@ -44,7 +44,7 @@ function procesarCSV(csvData) {
       const poblacion = partes[0].trim();
       const codigoPostal = partes[1].trim();
       const valor = parseFloat(partes[2].trim());
-      data[codigoPostal] = { valor, poblacion };
+      data[codigoPostal] = { valor, Poblacion };
     }
   }
   return data;
