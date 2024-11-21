@@ -19,7 +19,6 @@ btnAgregar.addEventListener("click", () => {
 btnCalcular.addEventListener("click", () => {
     const codigosPostales = Array.from(document.querySelectorAll(".codigo_postal")).map(input => input.value);
 
-    // Obtener los datos de la hoja de cálculo (reemplaza con la ruta real)
     fetch("hoja_kilom_pruebas.csv")
         .then(response => response.text())
         .then(csvData => {
@@ -44,7 +43,7 @@ function procesarCSV(csvData) {
             const valor = parseFloat(partes[encabezados.indexOf("valor")].trim());
             const poblacion = partes[encabezados.indexOf("Poblacion")].trim();
             data[codigoPostal] = { valor, poblacion };
-        } else if (partes.length > 0) { // Si la línea no está vacía, mostrar un mensaje de error
+        } else if (partes.length > 0) {
             console.error(`Error en la línea ${i + 1}: número incorrecto de campos`);
         }
     }
