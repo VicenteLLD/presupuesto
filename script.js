@@ -34,19 +34,18 @@ btnCalcular.addEventListener("click", () => {
 });
 
 function procesarCSV(csvData) {
-    const lineas = csvData.split("\\n");
+    const lineas = csvData.split("\n");
     const data = {};
     for (let i = 1; i < lineas.length; i++) { // Empezamos desde 1 para ignorar la primera línea
         const partes = lineas[i].split(",");
         if (partes.length === 3) {
-            const codigoPostal = partes[1].trim();
-            const valor = parseFloat(partes[2].trim());
+            const codigoPostal = partes[1].trim(); // Código postal en la segunda columna
+            const valor = parseFloat(partes[2].trim()); // Valor en la tercera columna
             data[codigoPostal] = valor;
         }
     }
     return data;
 }
-
 function calcularPresupuesto(codigosPostales, data) {
     let total = 0;
     const resultado = [];
