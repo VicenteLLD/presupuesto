@@ -36,19 +36,20 @@ btnCalcular.addEventListener("click", () => {
 function procesarCSV(csvData) {
     const lineas = csvData.split("\n");
     const data = {};
-    const encabezados = lineas[0].split(";"); // Leer la primera línea como encabezados
-    for (let i = 1; i < lineas.length; i++) { // Empezar desde la segunda línea
+    const encabezados = lineas[0].split(";");
+    for (let i = 1; i < lineas.length; i++) {
         const partes = lineas[i].split(";");
-        if (partes.length === encabezados.length) { // Asegurar que la línea tenga el mismo número de campos que los encabezados
-            const codigoPostal = partes[encabezados.indexOf("Codigo postal")].trim(); // Obtener el código postal usando el índice del encabezado
-            const valor = parseFloat(partes[encabezados.indexOf("valor")].trim()); // Obtener el valor usando el índice del encabezado
-            const poblacion = partes[encabezados.indexOf("Poblacion")].trim(); // Obtener la población usando el índice del encabezado
+        if (partes.length === encabezados.length) {
+            const codigoPostal = partes[encabezados.indexOf("Codigo postal")].trim();
+            const valor = parseFloat(partes[encabezados.indexOf("valor")].trim());
+            const poblacion = partes[encabezados.indexOf("Poblacion")].trim();
             data[codigoPostal] = { valor, poblacion };
+        } else if (partes.length > 0) { // Si la línea no está vacía, mostrar un mensaje de error
+            console.error(`Error en la línea ${i + 1}: número incorrecto de campos`);
         }
     }
     return data;
 }
-
 
 function calcularPresupuesto(codigosPostales, data) {
     let total = 0;
