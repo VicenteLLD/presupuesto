@@ -1,4 +1,4 @@
-Poblacion;Codigo postal;valor
+ÔªøPoblacion;Codigo postal;valor
 Madrid;28000;0
 Madrid;28001;0
 Madrid;28002;0
@@ -65,7 +65,7 @@ Valdeolmos-Alalpardo;28130;78
 Fuente el Saz de Jarama;28140;70
 Valdetorres de Jarama;28150;84
 Talamanca de Jarama;28160;100
-ValdepiÇlagos;28170;102
+Valdepi√©lagos;28170;102
 Torrelaguna;28180;114
 El Atazar;28189;130
 Patones;28189;124
@@ -74,7 +74,7 @@ Montejo de la Sierra;28190;182
 Puebla de la Sierra;28190;214
 La Hiruela;28191;202
 Horcajuelo de la Sierra;28191;184
-Pr†dena del Rinc¢n;28191;178
+Pr√°dena del Rinc√≥n;28191;178
 El Berrueco;28192;130
 Cervera de Buitrago;28193;162
 Berzosa del Lozoya;28194;166
@@ -93,8 +93,8 @@ El Escorial;28219;98
 Majadahonda;28220;48
 Majadahonda;28221;38
 Majadahonda;28222;50
-Pozuelo de Alarc¢n;28223;28
-Pozuelo de Alarc¢n;28224;26
+Pozuelo de Alarc√≥n;28223;28
+Pozuelo de Alarc√≥n;28224;26
 Villanueva del Pardillo;28229;56
 Las Rozas de Madrid;28231;44
 Las Rozas de Madrid;28232;54
@@ -113,16 +113,16 @@ Galapagar;28292;76
 Zarzalejo;28293;114
 Robledo de Chavela;28294;118
 Valdemaqueda;28295;130
-Santa Mar°a de la Alameda;28296;146
-Santa Mar°a de la Alameda;28297;124
+Santa Mar√≠a de la Alameda;28296;146
+Santa Mar√≠a de la Alameda;28297;124
 Aranjuez;28300;98
 Pinto;28320;50
-San Mart°n de la Vega;28330;54
+San Mart√≠n de la Vega;28330;54
 Valdemoro;28340;58
 Ciempozuelos;28350;72
 Titulcia;28359;80
 Villaconejos;28360;98
-Chinch¢n;28370;96
+Chinch√≥n;28370;96
 Colmenar de Oreja;28380;104
 Belmonte de Tajo;28390;112
 Valdelaguna;28391;102
@@ -149,62 +149,62 @@ Arganda del Rey;28500;56
 Campo Real;28510;68
 Valdilecha;28511;90
 Villar del Olmo;28512;96
-Nuevo Bazt†n;28514;90
+Nuevo Bazt√°n;28514;90
 Olmeda de las Fuentes;28515;108
 Rivas-Vaciamadrid;28521;56
 Rivas-Vaciamadrid;28522;40
 Rivas-Vaciamadrid;28523;40
 Rivas-Vaciamadrid;28524;38
 Rivas-Vaciamadrid;28529;36
-Morata de Taju§a;28530;72
-Perales de Taju§a;28540;82
+Morata de Taju√±a;28530;72
+Perales de Taju√±a;28540;82
 Tielmes;28550;96
-Caraba§a;28560;108
-Orusco de Taju§a;28570;104
+Caraba√±a;28560;108
+Orusco de Taju√±a;28570;104
 Ambite;28580;108
-Villarejo de SalvanÇs;28590;104
+Villarejo de Salvan√©s;28590;104
 Valdaracete;28594;120
 Estremera;28595;142
 Brea de Tajo;28596;132
-Fuentidue§a de Tajo;28597;126
+Fuentidue√±a de Tajo;28597;126
 Villamanrique de Tajo;28598;126
 Navalcarnero;28600;72
-El µlamo;28607;82
+El √Ålamo;28607;82
 Sevilla la Nueva;28609;82
 Villamantilla;28609;104
 Villanueva de Perales;28609;92
 Villamanta;28610;92
 Aldea del Fresno;28620;110
 Villa del Prado;28630;132
-M¢stoles;28635;34
+M√≥stoles;28635;34
 Cadalso de los Vidrios;28640;162
 Cadalso de los Vidrios;28648;174
 Rozas de Puerto Real;28649;172
 Cenicientos;28650;172
 Boadilla del Monte;28660;36
 Boadilla del Monte;28669;50
-Villaviciosa de Od¢n;28670;48
-San Mart°n de Valdeiglesias;28680;154
+Villaviciosa de Od√≥n;28670;48
+San Mart√≠n de Valdeiglesias;28680;154
 Brunete;28690;62
-Villanueva de la Ca§ada;28691;66
-Villanueva de la Ca§ada;28692;60
+Villanueva de la Ca√±ada;28691;66
+Villanueva de la Ca√±ada;28692;60
 Quijorna;28693;76
-Chapiner°a;28694;110
+Chapiner√≠a;28694;110
 Navas del Rey;28695;120
 Pelayos de la Presa;28696;142
-San Sebasti†n de los Reyes;28700;46
-San Sebasti†n de los Reyes;28701;50
-San Sebasti†n de los Reyes;28702;46
-San Sebasti†n de los Reyes;28703;44
-San Sebasti†n de los Reyes;28706;58
+San Sebasti√°n de los Reyes;28700;46
+San Sebasti√°n de los Reyes;28701;50
+San Sebasti√°n de los Reyes;28702;46
+San Sebasti√°n de los Reyes;28703;44
+San Sebasti√°n de los Reyes;28706;58
 Colmenar Viejo;28707;68
-San Sebasti†n de los Reyes;28707;68
-San Sebasti†n de los Reyes;28708;54
-San Sebasti†n de los Reyes;28709;52
+San Sebasti√°n de los Reyes;28707;68
+San Sebasti√°n de los Reyes;28708;54
+San Sebasti√°n de los Reyes;28709;52
 Bustarviejo;28720;116
 Cabanillas de la Sierra;28721;116
-Redue§a;28721;116
-El Vell¢n;28722;102
+Redue√±a;28721;116
+El Vell√≥n;28722;102
 Pedrezuela;28723;94
 Navalafuente;28729;112
 Valdemanco;28729;128
@@ -212,21 +212,21 @@ Venturada;28729;110
 Buitrago del Lozoya;28730;156
 Braojos;28737;172
 Gascones;28737;168
-Pi§uÇcar-Gandullas;28737;166
+Pi√±u√©car-Gandullas;28737;166
 La Serna del Monte;28737;166
 Garganta de los Montes;28739;158
 Gargantilla del Lozoya y Pinilla de Buitrago;28739;160
-Navarredonda y San MamÇs;28739;166
+Navarredonda y San Mam√©s;28739;166
 Villavieja del Lozoya;28739;168
-Rascafr°a;28740;150
+Rascafr√≠a;28740;150
 Alameda del Valle;28742;152
 Lozoya;28742;170
 Canencia;28743;142
 Garganta de los Montes;28743;158
 Pinilla del Valle;28749;158
-Rascafr°a;28749;154
+Rascafr√≠a;28749;154
 Colmenar Viejo;28750;70
-San Agust°n del Guadalix;28750;74
+San Agust√≠n del Guadalix;28750;74
 San Lorenzo de El Escorial;28750;102
 La Cabrera;28751;126
 Lozoyuela-Navas-Sieteiglesias;28752;142
@@ -244,18 +244,18 @@ Colmenar Viejo;28770;70
 Soto del Real;28791;92
 Miraflores de la Sierra;28792;108
 Guadalix de la Sierra;28794;102
-Alcal† de Henares;28801;70
-Alcal† de Henares;28802;64
-Alcal† de Henares;28803;70
-Alcal† de Henares;28804;82
-Alcal† de Henares;28805;78
-Alcal† de Henares;28806;70
-El µlamo;28807;82
-Alcal† de Henares;28807;68
+Alcal√° de Henares;28801;70
+Alcal√° de Henares;28802;64
+Alcal√° de Henares;28803;70
+Alcal√° de Henares;28804;82
+Alcal√° de Henares;28805;78
+Alcal√° de Henares;28806;70
+El √Ålamo;28807;82
+Alcal√° de Henares;28807;68
 Villalbilla;28810;86
 Corpa;28811;90
 Pezuela de las Torres;28812;106
-Valverde de Alcal†;28812;82
+Valverde de Alcal√°;28812;82
 Pozuelo del Rey;28813;76
 Torres de la Alameda;28813;70
 Daganzo de Arriba;28814;58
@@ -272,11 +272,11 @@ Coslada;28822;32
 Coslada;28823;34
 San Fernando de Henares;28830;40
 Mejorada del Campo;28840;48
-Torrej¢n de Ardoz;28850;52
+Torrej√≥n de Ardoz;28850;52
 Paracuellos de Jarama;28860;42
 Paracuellos de Jarama;28861;46
 Paracuellos de Jarama;28862;50
-Cobe§a;28863;58
+Cobe√±a;28863;58
 Ajalvir;28864;52
 Meco;28880;82
 Loeches;28890;58
@@ -289,28 +289,28 @@ Getafe;28905;34
 Getafe;28906;34
 Getafe;28907;26
 Getafe;28909;34
-LeganÇs;28911;26
-LeganÇs;28912;24
-LeganÇs;28913;26
-LeganÇs;28914;32
-LeganÇs;28915;26
-LeganÇs;28916;24
-LeganÇs;28917;24
-LeganÇs;28918;26
-LeganÇs;28919;16
-Alcorc¢n;28921;34
-Alcorc¢n;28922;34
-Alcorc¢n;28923;32
-Alcorc¢n;28924;30
-Alcorc¢n;28925;30
-M¢stoles;28931;44
-M¢stoles;28932;44
-M¢stoles;28933;44
-M¢stoles;28934;46
-M¢stoles;28935;56
-M¢stoles;28936;42
-M¢stoles;28937;42
-M¢stoles;28938;46
+Legan√©s;28911;26
+Legan√©s;28912;24
+Legan√©s;28913;26
+Legan√©s;28914;32
+Legan√©s;28915;26
+Legan√©s;28916;24
+Legan√©s;28917;24
+Legan√©s;28918;26
+Legan√©s;28919;16
+Alcorc√≥n;28921;34
+Alcorc√≥n;28922;34
+Alcorc√≥n;28923;32
+Alcorc√≥n;28924;30
+Alcorc√≥n;28925;30
+M√≥stoles;28931;44
+M√≥stoles;28932;44
+M√≥stoles;28933;44
+M√≥stoles;28934;46
+M√≥stoles;28935;56
+M√≥stoles;28936;42
+M√≥stoles;28937;42
+M√≥stoles;28938;46
 Arroyomolinos;28939;60
 Batres;28939;74
 Fuenlabrada;28941;38
@@ -323,7 +323,7 @@ Fuenlabrada;28947;40
 Moraleja de Enmedio;28950;52
 Navalagamella;28954;96
 Humanes de Madrid;28970;48
-Gri§¢n;28971;56
+Gri√±√≥n;28971;56
 Batres;28976;74
 Casarrubuelos;28977;66
 Cubas de la Sagra;28978;62
@@ -333,5 +333,5 @@ Parla;28981;54
 Parla;28982;48
 Parla;28983;50
 Parla;28984;52
-Torrej¢n de Velasco;28990;62
-Torrej¢n de la Calzada;28991;54
+Torrej√≥n de Velasco;28990;62
+Torrej√≥n de la Calzada;28991;54
