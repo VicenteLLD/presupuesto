@@ -36,23 +36,25 @@ btnCalcular.addEventListener("click", () => {
 function procesarCSV(csvData) {
     const lineas = csvData.split("\n");
     const data = {};
-    for (let i = 1; i < lineas.length; i++) { // Empezamos desde 1 para ignorar la primera línea
+    for (let i = 1; i < lineas.length; i++) {
         const partes = lineas[i].split(",");
         if (partes.length === 3) {
-            const codigoPostal = partes[1].trim(); // Código postal en la segunda columna
-            const valor = parseFloat(partes[2].trim()); // Valor en la tercera columna
-            data[codigoPostal] = valor;
+            const poblacion = partes[0].trim();
+            const codigoPostal = partes[1].trim();
+            const valor = parseFloat(partes[2].trim());
+            data[codigoPostal] = { valor, poblacion };
         }
     }
     return data;
 }
+
 function calcularPresupuesto(codigosPostales, data) {
     let total = 0;
     const resultado = [];
     for (const codigo of codigosPostales) {
-        const valor = data[codigo] || 0; // Si no se encuentra el código, el valor es 0
-        total += valor;
-        resultado.push({ codigo, valor });
+        const item = data[codigo] || { valor: 0, poblacion: "" };
+        total += item.valor;
+        resultado.push({ codigo, valor: item.valor, poblacion: item.poblacion });
     }
     return { resultado, total };
 }
@@ -60,7 +62,7 @@ function calcularPresupuesto(codigosPostales, data) {
 function mostrarResultados(resultado) {
     let resultadoHtml = "<h2>Resultados:</h2>";
     resultado.resultado.forEach(item => {
-        resultadoHtml += `<p>Código ${item.codigo}: Valor: ${item.valor}</p>`;
+        resultadoHtml += `<p>Código ${item.codigo}: ${item.poblacion} - Valor: ${item.valor}</p>`;
     });
     resultadoHtml += `<p>Total: ${resultado.total}</p>`;
     resultadosDiv.innerHTML = resultadoHtml;
